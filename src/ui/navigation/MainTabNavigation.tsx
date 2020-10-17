@@ -1,11 +1,11 @@
 import React from 'react';
 import styled from 'styled-components/native';
-import { View, ViewProps } from 'react-native';
+import { ViewProps } from 'react-native';
 import {createBottomTabNavigator} from 'react-navigation-tabs';
-import HomeView from 'pages/home/HomeView';
-import AddListingView from 'pages/add-listing/AddListingView';
-import ListingView from 'pages/listing/ListingView';
-import ProfileView from 'pages/profile/ProfileView';
+import HomeView from '../pages/home/HomeView';
+import AddListingView from '../pages/add-listing/AddListingView';
+import ListingView from '../pages/listing/ListingView';
+import ProfileView from '../pages/profile/ProfileView';
 
 import Icons from 'react-native-vector-icons/MaterialIcons';
 
@@ -28,7 +28,7 @@ const AddListingStack = createStackNavigator(
   },
   {
     defaultNavigationOptions: {
-      header: null,
+      headerShown: false,
       initialRouteName: 'Prodash',
     },
   },
@@ -57,7 +57,7 @@ const Line = styled.View<LineProps>`
   top: -7px;
 `;
 
-const StyledIcon = styled(Icons)`
+const StyledIcon = styled(Icons)<LineProps>`
   top: ${props => (props.focused ? '-4px' : '-3px')};
 `;
 
