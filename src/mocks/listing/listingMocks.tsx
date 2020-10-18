@@ -36,7 +36,7 @@
         description: 'Dobra hlaca',
         price: 50.12,
         categoryID: 3,
-        images: ['https://scontent-amt2-1.xx.fbcdn.net/v/t1.0-9/121967357_399981311392560_8190238289597772762_o.jpg?_nc_cat=102&_nc_sid=a610ef&_nc_ohc=Rg93UMh7pnwAX-n3nZJ&_nc_ht=scontent-amt2-1.xx&oh=7e834009162b8a9d67604a5c3fb7fc6b&oe=5FB0D880'],
+        images: ['https://scontent-ams4-1.xx.fbcdn.net/v/t1.15752-9/121025838_710190589574618_4181785737771738883_n.jpg?_nc_cat=103&_nc_sid=ae9488&_nc_ohc=xUarcsGrWrkAX8eY2_F&_nc_ht=scontent-ams4-1.xx&oh=11932343a24fe51107716e33e37a9e26&oe=5FB102E5'],
         location: {
             lat: 45.98,
             long: 17.98,
@@ -51,7 +51,7 @@
         description: 'Dobra zvucnik',
         price: 5,
         categoryID: 1,
-        images: ['https://scontent-ams4-1.xx.fbcdn.net/v/t1.15752-9/121025838_710190589574618_4181785737771738883_n.jpg?_nc_cat=103&_nc_sid=ae9488&_nc_ohc=xUarcsGrWrkAX8eY2_F&_nc_ht=scontent-ams4-1.xx&oh=11932343a24fe51107716e33e37a9e26&oe=5FB102E5'],
+        images: ['https://scontent-amt2-1.xx.fbcdn.net/v/t1.0-9/121967357_399981311392560_8190238289597772762_o.jpg?_nc_cat=102&_nc_sid=a610ef&_nc_ohc=Rg93UMh7pnwAX-n3nZJ&_nc_ht=scontent-amt2-1.xx&oh=7e834009162b8a9d67604a5c3fb7fc6b&oe=5FB0D880'],
         location: {
             lat: 44.1245,
             long: 16.12445,

@@ -1,12 +1,16 @@
 import * as React from 'react';
 import { Text, View } from 'react-native';
 
-function ListingView() {
+function ListingView({ navigation }) {
   return (
     <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-      <Text>ListingView!</Text>
+      <Text>{JSON.stringify(navigation.state.params)}</Text>
     </View>
   );
+}
+
+ListingView.navigationOptions = {
+  headerShown: true,
 }
 
 export default ListingView

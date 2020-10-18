@@ -14,6 +14,7 @@ import {createStackNavigator} from 'react-navigation-stack';
 const HomeStack = createStackNavigator(
   {
     'Home': HomeView,
+    Listing: ListingView,
   },
   {
     defaultNavigationOptions: {
