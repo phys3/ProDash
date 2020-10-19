@@ -21,7 +21,7 @@
         description: 'Dobra televizor',
         price: 500,
         categoryID: 8,
-        images: ['https://reactnativecode.com/wp-content/uploads/2017/05/react_thumb_install.png'],
+        images: ['https://reactnativecode.com/wp-content/uploads/2017/05/react_thumb_install.png', 'https://reactnativecode.com/wp-content/uploads/2017/05/react_thumb_install.png', 'https://reactnativecode.com/wp-content/uploads/2017/05/react_thumb_install.png'],
         location: {
             lat: 45.1245,
             long: 17.12445,
